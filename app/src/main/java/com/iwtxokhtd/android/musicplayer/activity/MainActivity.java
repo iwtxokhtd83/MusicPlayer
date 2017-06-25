@@ -7,14 +7,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-import com.iwtxokhtd.android.musicplayer.activity.R;
+import com.iwtxokhtd.android.musicplayer.R;
+import com.iwtxokhtd.android.musicplayer.util.ConstantUtil;
+import com.iwtxokhtd.android.musicplayer.util.MySharedPreference;
 
 public class MainActivity extends AppCompatActivity {
-
+    private MySharedPreference mySharedPreference;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mySharedPreference=new MySharedPreference(this);
+        mySharedPreference.setData(ConstantUtil.IS_FIRST_LAUNCH,false);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
