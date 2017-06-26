@@ -18,6 +18,9 @@ import com.iwtxokhtd.android.musicplayer.view.GuideViewPagerAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by tujiyue on 25/6/17.
+ */
 public class GuideActivity extends AppCompatActivity implements View.OnClickListener {
     private ViewPager viewPager;
     private GuideViewPagerAdapter adapter;

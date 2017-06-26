@@ -13,6 +13,9 @@ import com.iwtxokhtd.android.musicplayer.util.PermissionChecker;
 import com.iwtxokhtd.android.musicplayer.util.SharedPreferenceUtil;
 import com.iwtxokhtd.android.musicplayer.util.ToastUtil;
 
+/**
+ * Created by tujiyue on 25/6/17.
+ */
 public class LaunchActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

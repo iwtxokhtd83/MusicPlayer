@@ -11,6 +11,9 @@ import com.iwtxokhtd.android.musicplayer.R;
 import com.iwtxokhtd.android.musicplayer.util.ConstantUtil;
 import com.iwtxokhtd.android.musicplayer.util.MySharedPreference;
 
+/**
+ * Created by tujiyue on 25/6/17.
+ */
 public class MainActivity extends AppCompatActivity {
     private MySharedPreference mySharedPreference;
     @Override
