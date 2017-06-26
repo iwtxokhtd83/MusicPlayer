@@ -182,7 +182,7 @@ public class FileUtil {
     }
 
     /**
-     * 删除指定目录下的指定文件
+     * Delete external file
      *
      * @param dir
      * @param filename
@@ -204,7 +204,7 @@ public class FileUtil {
     }
 
     /**
-     * 向外置存储的Application目录的files目录写入文件 /外置存储/Android/data/packagename/files/dir/
+     * Write external app files
      *
      * @param context
      * @param dir
@@ -243,7 +243,7 @@ public class FileUtil {
     }
 
     /**
-     * 读取外置存储器中应用程序目录文件
+     * Read external app files
      * @param context
      * @param dir
      * @param filename

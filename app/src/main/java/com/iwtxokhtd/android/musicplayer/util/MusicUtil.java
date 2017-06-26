@@ -28,9 +28,9 @@ public class MusicUtil {
     }
 
     /**
-     * 播放按钮点击
+     * Play current song by clicking play button
      */
-    public static void playCurrent(Messenger service) {
+    public static void play(Messenger service) {
         //多进程方式
         Message msg = Message.obtain();
         msg.what = ConstantUtil.WHAT_PLAY_PLAY_BTN;
@@ -42,9 +42,9 @@ public class MusicUtil {
     }
 
     /**
-     * 播放上一首 接口方法
+     * Play previous song
      */
-    public static void playPreview(Messenger service) {
+    public static void playPreviousSong(Messenger service) {
         Message msg = Message.obtain();
         msg.what = ConstantUtil.WHAT_PLAY_PRE_BTN;
         try {
@@ -55,9 +55,9 @@ public class MusicUtil {
     }
 
     /**
-     * 播放下一首 接口方法
+     * Play next song
      */
-    public static void playNext(Messenger service) {
+    public static void playNextSong(Messenger service) {
         Message msg = Message.obtain();
         msg.what = ConstantUtil.WHAT_PLAY_NEXT_BTN;
         try {
