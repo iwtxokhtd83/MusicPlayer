@@ -167,7 +167,7 @@ public class GuideActivity extends AppCompatActivity implements View.OnClickList
         // 当前页面被滑动时调用
         @Override
         public void onPageScrolled(int position, float arg1, int arg2) {
-            // arg0 :当前页面，及你点击滑动的页面
+            // arg0 :当前页面，即你点击滑动的页面
             // arg1:当前页面偏移的百分比
             // arg2:当前页面偏移的像素位置
 
